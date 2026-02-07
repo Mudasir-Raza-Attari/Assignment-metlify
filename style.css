@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 90px;
+  position: sticky;
+  z-index: 0;
+  background-color: #48759d;
+  font-weight: 700;
+}
+
+/* .container {
+  /* border: 2px solid blue; */
+/* } */ */
+
+.navbar .nav-left img {
+  height: 21px;
+}
+/* .navbar .nav-left { */
+/* } */
+.navbar .nav-center {
+  display: flex;
+  gap: 25px;
+}
+.nav-center a {
+  text-decoration: none;
+  color: #fff;
+  /* border: 2px solid orange; */
+}
+.nav-right button {
+  padding: 8px;
+  border-radius: 15px;
+  border: none;
+}
+.nav-right {
+  display: flex;
+  gap: 15px;
+}
+
+/* *******hero section*************** */
+.hero {
+  /* border: 2px solid green; */
+  background-image: url(/images/bg-light.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.hero .hero-main {
+  /* border: 3px solid yellow; */
+  color: #fff;
+  /* border: 2px solid blue; */
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  /* padding-left: 50%; */
+}
+.hero .hero-main h1 {
+  font-size: 55px;
+  /* border: 3px solid pink; */
+  line-height: 63px;
+  font-weight: 600;
+}
+.hero .hero-main p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+.hero .hero-main .email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6caba5;
+  border-radius: 60px;
+  padding: 1px 1px;
+  /* border: 2px solid red; */
+  width: 40%;
+  margin: 40px;
+}
+.hero .hero-main .email input {
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+}
+.hero .hero-main .email button {
+  background-color: #fff;
+  padding: 7px 8px;
+  border-radius: 45px;
+  border: none;
+  margin: 7px;
+  /* width: 100px; */
+}
+
+.hero-main .hero-img img {
+  border-radius: 10px;
+}
+
+/* ///////section logo imges//////// */
+.logo-box {
+  /* border: 2px solid blue; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 90px;
+}
+.logo-box .imgss {
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 80px; */
+  /* text-align: center; */
+  /* padding: 40px; */
+}
+.logo-box .imgss img {
+  /* width: 100%;
+    display: flex;
+    align-items: center; */
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  /* border: 2px solid yellow; */
+}
