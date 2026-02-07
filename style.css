@@ -10,7 +10,8 @@
   padding: 15px 90px;
   position: sticky;
   z-index: 0;
-  background-color: #48759d;
+  background-color: #1f4464;
+  /* background-color: transparent; */
   font-weight: 700;
 }
 
@@ -37,6 +38,7 @@
   border-radius: 15px;
   border: none;
 }
+
 .nav-right {
   display: flex;
   gap: 15px;
